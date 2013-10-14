@@ -1,12 +1,11 @@
 # == Class: gnometerminalcolorssolarized
 #
 # This is the gnometerminalcolorssolarized module. It installs
-# gnome-terminal-colors for a user and changes their Gnome Terminal
+# gnome-terminal-colors-solarized for a user and changes their Gnome Terminal
 # colours to solarized.
 #
-# gnome-terminal-colors is a scripts for setting the Solarized color set
-# with Gnome Terminal.
-#
+# gnome-terminal-colors-solarized is a script for setting the Solarized color
+# set with Gnome Terminal.
 #
 # === Parameters
 #
