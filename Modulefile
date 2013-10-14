@@ -1,11 +1,11 @@
 name    'acme-gnometerminalcolorssolarized'
 version '0.1.0'
-source 'UNKNOWN'
+source 'https://github.com/acme/gnometerminalcolorssolarized'
 author 'acme'
 license 'Apache License, Version 2.0'
-summary 'UNKNOWN'
-description 'UNKNOWN'
-project_page 'UNKNOWN'
+summary 'gnometerminalcolorssolarized module'
+description 'This is the gnometerminalcolorssolarized module. It installs gnome-terminal-colors for a user and changes their Gnome Terminal colours to solarized'
+project_page 'https://github.com/acme/gnometerminalcolorssolarized'
 
 ## Add dependencies, if any:
 # dependency 'username/name', '>= 1.2.0'
