@@ -1,39 +1,33 @@
 # == Class: gnometerminalcolorssolarized
 #
-# Full description of class gnometerminalcolorssolarized here.
+# This is the gnometerminalcolorssolarized module. It installs
+# gnome-terminal-colors for a user and changes their Gnome Terminal
+# colours to solarized.
+#
+# gnome-terminal-colors is a scripts for setting the Solarized color set
+# with Gnome Terminal.
+#
 #
 # === Parameters
 #
-# Document parameters here.
-#
-# [*sample_parameter*]
-#   Explanation of what this parameter affects and what it defaults to.
-#   e.g. "Specify one or more upstream ntp servers as an array."
+# None.
 #
 # === Variables
 #
-# Here you should define a list of variables that this module would require.
-#
-# [*sample_variable*]
-#   Explanation of how this variable affects the funtion of this class and if
-#   it has a default. e.g. "The parameter enc_ntp_servers must be set by the
-#   External Node Classifier as a comma separated list of hostnames." (Note,
-#   global variables should be avoided in favor of class parameters as
-#   of Puppet 2.6.)
+# None.
 #
 # === Examples
 #
-#  class { gnometerminalcolorssolarized:
-#    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
-#  }
+#  class { 'gnometerminalcolorssolarized': }
+#  gnometerminalcolorssolarized::install { 'acme': }
 #
 # === Authors
 #
-# Author Name <author@domain.com>
+# Leon Brocard acme@astray.com
 #
 # === Copyright
 #
-# Copyright 2013 Your name here, unless otherwise noted.
+# Copyright 2013 Leon Brocard.
 #
 class gnometerminalcolorssolarized {
 
