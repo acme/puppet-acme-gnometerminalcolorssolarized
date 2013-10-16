@@ -42,6 +42,7 @@ define gnometerminalcolorssolarized::install() {
     command => "/home/${name}/.gnometerminalcolorssolarized/solarize",
     cwd     => "/home/${name}/.gnometerminalcolorssolarized/",
     user    => $name,
+    unless  => '/usr/bin/gconftool-2 --get /apps/gnome-terminal/profiles/Solarized/visible_name',
     require => Exec['gnometerminalcolorssolarized::git clone'],
   }
 
